@@ -21,5 +21,7 @@ function monitor() {
 
 }
 
-inotifywait -mre modify,move,create --format="%f;%w;%e" . | monitor
+path=${1:-.}
+
+inotifywait -mre modify,move,create --format="%f;%w;%e" $path | monitor
 
