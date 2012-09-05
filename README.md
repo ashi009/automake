@@ -1,8 +1,7 @@
 automake
 ========
 
-Automatically make less and jade files (even more) in linux based systems while
-update files.
+Automatically make less and jade files (even more) on linux systems when files update.
 
 Usage
 =====
