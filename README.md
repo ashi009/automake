@@ -7,7 +7,7 @@ update files.
 Usage
 =====
 
-Install [https://github.com/rvoicilas/inotify-tools/wiki/ inotyfy-tools] and
+Install [inotyfy-tools](https://github.com/rvoicilas/inotify-tools/wiki/) and
 
     ./automake.sh [path]
 
